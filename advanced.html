@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Images</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="advancedstyle.css" />
+  </head>
+  <body>
+    <ul>
+      <div id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li><a href="advanced.html">Advanced Search</a></li>
+        <img src="profilbilde.png" id="profile" />
+      </div>
+    </ul>
+    <div class="line"></div>
+    <h1 id="heading">Advanced search</h1>
+    <div class="line"></div>
+    <div id="container">
+        <br><br> 
+        <span id="heading2">Find pages with..</span>
+        <br>
+      <table>
+        <form action="https://google.com/search" name="f">
+            <tr>
+              <td>
+                <label for="field1">all these words:</label></td>
+                <td>
+                <input
+                  type="text"
+                  class="textinput"
+                  id="field1"
+                  value=""
+                  name="as_q"
+                />
+              </td>
+            </tr>
+          <tr>
+              <td>
+                <label for="field2">this exact word or phrase: </label>
+                </td>
+                <td>
+                <input
+                  type="text"
+                  class="textinput"
+                  id="field2"
+                  value=""
+                  name="as_epq"
+                />
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="field3">any of this words: </label>
+            </td>
+            <td>
+                <input
+                  type="text"
+                  class="textinput"
+                  id="field3"
+                  value=""
+                  name="as_oq"
+                />
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="field4">none of these words: </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="textinput"
+                  id="field4"
+                  value=""
+                  name="as_eq"
+                />
+            </td>
+          </tr>
+          <br />
+            <tr>
+              <td>
+                <label for="field5">numbers ranging from: </label>
+            </td>
+            <td>
+                <input
+                  type="text"
+                  class="textinput1"
+                  id="field5"
+                  value=""
+                  name="as_nlo"
+                />
+                <span class="seperator">to</span>
+                <input
+                  type="text"
+                  class="textinput2"
+                  id="field6"
+                  value=""
+                  name="as_nhi"
+                />
+              </td>
+            </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                value="advanced search"
+                id="search"
+            >Advanced search</button>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>

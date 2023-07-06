@@ -1,0 +1,152 @@
+body {
+  background-color: #202124;
+  font-family: arial, sans-serif;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #202124;
+  margin-top: 11%;
+}
+
+#search {
+  width: 638px;
+  max-width: 584px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background-color: #202124;
+  border: 1px solid rgba(135, 135, 135, 0.674);
+  font-size: 14px;
+  text-align: start;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  padding-left: 50px;
+  position: relative;
+}
+
+#search:hover, #search:focus {
+  background-color: rgb(45, 45, 45);
+  border: 1px solid rgb(45, 45, 45);
+}
+
+.button-1 {
+  font-size: 14px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 3px;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 10px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.button-1:hover {
+  border: 1px solid rgba(182, 182, 182, 0.674);
+  box-sizing: border-box;
+
+
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #202124;
+    margin: 0;
+}
+  
+  /* li {
+    float: right;
+  } */
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  
+  li a:hover {
+  background-color: #202124;
+  text-decoration: underline;
+  }
+
+  #profile {
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+
+  #profile:hover {
+    cursor: pointer;
+  }
+
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+
+#languagebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#language {
+    color: #bdc1c6;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+#lens {
+    position:absolute;
+    bottom:14px;
+    left:15px;
+    width:20px;
+    height:20px;
+    fill: rgb(169, 169, 169);
+}
+
+.input-container {
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+#imagescontainer{
+    position: relative;
+    margin-bottom: 24px;
+}
+
+#images{
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    top: 75px;
+    margin-left: -60px;
+    white-space: nowrap;
+}
