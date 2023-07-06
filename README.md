@@ -7,6 +7,8 @@ https://officialmilos.github.io/CS50search/
 <strong>Description:</strong>
 The task was to recreate the google search engine using HTML and CSS, and having the functionality from the classic Google Search, Google Images and Advanced Search.
 
+<br><br>
+
 <strong><i>Navigate using the navigation bar in the top right corner.</i></strong>
 
 <strong>Main page: </strong>
