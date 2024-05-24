@@ -2,12 +2,12 @@
 Project 0 in the HarvardX CS50W course.
 
 Link to page:
-https://officialmilos.github.io/CS50search/
+https://haraldeskeland.github.io/Google-Search-Clone---CS50/
 
 <strong>Description:</strong>
 The task was to recreate the google search engine using HTML and CSS, and having the functionality from the classic Google Search, Google Images and Advanced Search.
 
-<br><br>
+<img src="page_preview.png" width="900">
 
 <strong><i>Navigate using the navigation bar in the top right corner.</i></strong>
 
